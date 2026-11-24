@@ -83,6 +83,7 @@ pre.code{margin:0;padding:14px 0;font:400 clamp(10.5px,2.9vw,13.5px)/1.7 var(--m
 .foot .exit{color:#86b39d}
 .again{font:500 11px/1 var(--mono);color:var(--ink);background:transparent;border:1px solid var(--line);border-radius:999px;padding:8px 12px;cursor:pointer}
 .final.on .eyebrow{opacity:1}
+.final:not(.read) .letter,.final:not(.read) .foot{pointer-events:none;visibility:hidden}
 .final.read .letter{opacity:1;transform:none}
 .final.read .foot{opacity:1}
 @media (prefers-reduced-motion:reduce){.editor,.letter,.foot,.eyebrow{transition:none}.run.ready,.caret{animation:none}}
